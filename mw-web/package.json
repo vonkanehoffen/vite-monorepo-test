@@ -1,5 +1,5 @@
 {
-  "name": "mw-web",
+  "name": "@mw/mw-web",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
