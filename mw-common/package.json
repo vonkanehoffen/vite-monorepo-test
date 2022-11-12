@@ -1,6 +1,8 @@
 {
   "name": "@mw/mw-common",
   "version": "0.0.0",
+  "type": "module",
+  "main": "./src/index.ts",
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check build-only",
