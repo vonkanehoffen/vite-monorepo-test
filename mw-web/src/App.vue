@@ -2,6 +2,7 @@
 import { RouterLink } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
 import { SharedThing } from "@mw/mw-common";
+import "@mw/mw-common/dist/style.css";
 </script>
 
 <template>

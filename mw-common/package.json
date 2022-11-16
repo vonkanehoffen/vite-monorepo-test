@@ -11,7 +11,8 @@
     ".": {
       "import": "./dist/mw-common.js",
       "require": "./dist/mw-common.umd.cjs"
-    }
+    },
+    "./dist/style.css": "./dist/style.css"
   },
   "types": "./dist-types/index.d.ts",
   "scripts": {
