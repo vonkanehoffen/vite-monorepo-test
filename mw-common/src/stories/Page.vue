@@ -58,7 +58,7 @@
   </article>
 </template>
 
-<script>
+<script lang="ts">
 import './page.css';
 import MyHeader from './Header.vue';
 
@@ -69,18 +69,20 @@ export default {
 
   data() {
     return {
-      user: null
+      user: null as any
     }
   },
 
   methods: {
     onLogin() {
+      // @ts-ignore
       this.user = { name: 'Jane Doe' };
     },
     onLogout() {
       this.user = null;
     },
     onCreateAccount() {
+      // @ts-ignore
       this.user = { name: 'Jane Doe' };
     },
   },
