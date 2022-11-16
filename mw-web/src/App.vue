@@ -1,6 +1,7 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterLink } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+import { SharedThing } from "@mw/mw-common";
 </script>
 
 <template>
@@ -17,7 +18,7 @@ import HelloWorld from './components/HelloWorld.vue'
     </div>
   </header>
 
-  <RouterView />
+  <SharedThing />
 </template>
 
 <style scoped>
